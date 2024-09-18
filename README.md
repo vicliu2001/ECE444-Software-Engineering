@@ -9,3 +9,7 @@ Activity 2
 <img width="1236" alt="Screen Shot 2024-09-16 at 11 39 34 PM" src="https://github.com/user-attachments/assets/32274bac-71e3-41bc-baa3-a6b3ac3e02f2">
 <img width="1440" alt="Screen Shot 2024-09-16 at 11 39 17 PM" src="https://github.com/user-attachments/assets/e47e5051-9010-4cd8-b8b6-c28dc8ef2f76">
 
+Activity 3
+<img width="1278" alt="Screen Shot 2024-09-17 at 8 13 53 PM" src="https://github.com/user-attachments/assets/55722105-976f-4d9b-a70b-0a7048546713">
+<img width="1440" alt="Screen Shot 2024-09-17 at 8 12 42 PM" src="https://github.com/user-attachments/assets/b9d27ec7-2ae4-4efc-bd76-1990c2746f58">
+
