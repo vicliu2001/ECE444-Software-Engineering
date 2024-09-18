@@ -367,7 +367,7 @@
     </section>
 
     <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
+    <!-- <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
@@ -385,8 +385,6 @@
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
@@ -420,8 +418,6 @@
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
@@ -439,10 +435,29 @@
                     class="fa fa-external-link"></i></a>
                 </div>
               </div>
-            </div>
           </div>
+          
+        </div>
 
+    </section> -->
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div id="recent-projects" class="row projects-container">
+          <!-- The first project is displayed initially -->
+
+        </div>
+
+        <!-- Load More Button -->
+        <div class="row">
+          <button id="load-more-btn" class="btn-large waves-effect teal">Load More</button>
+        </div>
+      </div>
     </section>
+
+    <script src="load_projects.js"></script>
+    
 
     <!-- Fifth Section: Skills -->
     <section id="skills" class="section scrollspy">
