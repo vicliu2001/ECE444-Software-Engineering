@@ -1,6 +1,6 @@
-This repo is for Victor Liu' ECE444 F2024 PRA 1.
+This folder is for Victor Liu' ECE444 F2024 PRA 1.
 
-This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io
+It is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io
 
 Link to website: https://vicliu2001.github.io/
 
