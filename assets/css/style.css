@@ -321,6 +321,7 @@ h3 {
   position: relative;
 } */
 
+/* main page backgrounf color */
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
@@ -550,6 +551,7 @@ small {
 
 /* main .teal-text */
 
+/* contents heading background color */
 .teal-text {
   color: #1d75bd !important;
 }
@@ -560,6 +562,7 @@ small {
 
 /* .teal */
 
+/* background color of name in  */
 .teal {
   background-color: #1d7ab8 !important;
 }
