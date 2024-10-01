@@ -8,7 +8,9 @@ To run the code locally:
 3. run `source env/bin/activate`
 4. run `export FLASK_APP=activity1_4.py`
 5. run `flask run`
+6. To exit virtual environment, run `deactivate`
 
 To run through docker:
-1. build dockerfile by running `docker build -t pra2_2_docker .`
-2. run `docker run -d -p XXXX:5000 pra2_2_docker`, replace XXXX with any port number you desire
+1. exit virtual environment
+2. build dockerfile by running `docker build -t pra2_2_docker .`
+3. run `docker run -d -p XXXX:5000 pra2_2_docker`, replace XXXX with any port number you desire
