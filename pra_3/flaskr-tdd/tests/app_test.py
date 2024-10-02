@@ -15,10 +15,6 @@
 #     init_db()
 #     assert Path("flaskr.db").is_file()
 
-
-
-
-
 import os
 import pytest
 from pathlib import Path
@@ -38,6 +34,7 @@ TEST_DB = "test.db"
 #     init_db() # setup
 #     yield app.test_client() # tests run here
 #     init_db() # teardown
+
 
 @pytest.fixture
 def client():
@@ -73,7 +70,7 @@ def test_index(client):
 
 def test_database(client):
     """initial test. ensure that the database exists"""
-    #init_db()
+    # init_db()
     tester = Path("test.db").is_file()
     assert tester
 
@@ -115,6 +112,7 @@ def test_messages(client):
 #     data = json.loads(rv.data)
 #     assert data["status"] == 1
 
+
 def test_delete_message(client):
     """Ensure the messages are being deleted"""
     rv = client.get("/delete/1")
@@ -125,6 +123,6 @@ def test_delete_message(client):
     data = json.loads(rv.data)
     assert data["status"] == 1
 
+
 # def test_search(client):
 #     """Ensure users can search for posts"""
-    
