@@ -84,6 +84,14 @@ def delete_entry(post_id):
     return jsonify(result)
 
 
+@app.route('/search/', methods=['GET'])
+def search():
+    query = request.args.get("query")
+    entries = db.session.query(models.Post)
+    if query:
+        return render_template('search.html', entries=entries, query=query)
+    return render_template('search.html')
+
 if __name__ == "__main__":
     #app.run()
     #port = int(os.getenv("PORT", 5000))  # Fallback to 5000 if PORT is not set
