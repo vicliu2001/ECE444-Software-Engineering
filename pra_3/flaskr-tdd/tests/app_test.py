@@ -124,5 +124,18 @@ def test_delete_message(client):
     assert data["status"] == 1
 
 
-# def test_search(client):
-#     """Ensure users can search for posts"""
+def test_search(client):
+    """Ensure users can search for posts"""
+    login(client, app.config["USERNAME"], app.config["PASSWORD"])
+    
+    client.post(
+        "/add",
+        data=dict(title="<post 2>", text="abc"),
+        follow_redirects=True,
+    )
+    rv = client.get(
+        "/search/?query=abc",
+        follow_redirects=True,
+    )
+
+    assert b"abc" in rv.data
