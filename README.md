@@ -2,7 +2,7 @@ This folder is for Victor Liu' ECE444 F2024 PRA 1.
 
 It is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io
 
-Link to website: [https://vicliu2001.github.io/](https://vicliu2001.github.io/ECE444-Software-Engineering/)
+Link to website: https://vicliu2001.github.io/ECE444-Software-Engineering/
 
 Activity 1
 <img width="1319" alt="Screen Shot 2024-09-15 at 1 15 13 PM" src="https://github.com/user-attachments/assets/19bcac38-d6df-459c-a18c-df57964a125d">
