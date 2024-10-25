@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>News Prediction</title>
+  </head>
+  <body>
+    <h1>News Prediction</h1>
+    <form method="POST">
+      {{ form.hidden_tag() }} {{ form.name.label }} {{ form.name(size=32) }} {{ form.submit() }}
+    </form>
+  </body>
+</html>
